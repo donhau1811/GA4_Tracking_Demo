@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        "pagePostAuthor": "Hau Tran",
+      });
+    </script>
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -158,7 +164,11 @@
             <li>Wrihe some feature here</li>
             <li>Wrihe some feature here</li>
           </ul>
-          <a href="./buy.html?tipo=playstation&product=ps4">Buy More</a>
+          <a
+            href="./buy.html?tipo=playstation&product=ps4"
+            onclick="window.dataLayer.push({'event' : 'product-viewmore'})"
+            >Buy More</a
+          >
         </div>
         <div>
           <img
